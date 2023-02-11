@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  height: 100%;
+
+  .nav-drawer-container {
+    width: 250px;
+
+    .nav-list-item {
+      width: 100%;
+      font-size: 1rem;
+      text-align: center;
+      padding: 20px;
+    }
+  }
+}
+
+// mat-drawer-content {
+//   padding: 12px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: flex-start;
+// }

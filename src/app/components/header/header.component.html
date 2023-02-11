@@ -1,0 +1,18 @@
+<header>
+  <mat-toolbar class="main-container">
+    <ng-content></ng-content>
+    
+    <a [routerLink]="['/dashboard']">
+      <img src="../../../assets/images/logo-bitcoin.jpg" alt="Logo">
+    </a>
+
+    <div class="icon-itens">
+      <!-- <i class="bi bi-search"></i> -->
+      <button mat-icon-button (click)="changed()">
+        <i *ngIf="darkMode" class="bi bi-lightbulb"></i>
+        <i *ngIf="!darkMode" class="bi bi-lightbulb-fill"></i>
+      </button>
+    </div>
+
+  </mat-toolbar>
+</header>
